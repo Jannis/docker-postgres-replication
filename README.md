@@ -1,5 +1,13 @@
 # Postgres 9.6 Dockerized w/ Replication
 
+## Changes compared to https://github.com/DanielDent/docker-postgres-replication
+
+- Install `ping` in the `Dockerfile`.
+- In order to run this, run `docker build .` followed by copying the Docker image hash
+  into `docker-compose.yml`.
+
+## Original README
+
 Master/Slave Postgres Replication in 30 seconds.
 
   * Quickstart: `docker-compose up`
